@@ -1,0 +1,1 @@
+java -Xmx4056m -jar ./forge-1.16.5-36.0.43.jar
