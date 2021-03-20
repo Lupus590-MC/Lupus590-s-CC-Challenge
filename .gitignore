@@ -16,5 +16,7 @@ usernamecache.json
 kubejs/README.txt
 kubejs/assets
 kubejs/client_scripts
+kubejs/config
+kubejs/data
 kubejs/exported
 kubejs/startup_scripts

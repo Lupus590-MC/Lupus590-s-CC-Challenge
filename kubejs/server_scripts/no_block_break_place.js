@@ -47,7 +47,7 @@ Lupus590.Serialise = function(obj, indent){
 };
 
 events.listen('block.break', function (event) {
-    if (event.player.openInventory !== undefined && event.player.openInventory !== null && event.player.openInventory.computer !== undefined && event.player.openInventory.computer !== null){
+    if (event.player.fake || (event.player.openInventory && event.player.openInventory.computer)){
       return;
     }
 
@@ -58,7 +58,7 @@ events.listen('block.break', function (event) {
   });
 
   events.listen('block.place', function (event) {
-    if (event.getEntity().openInventory.computer !== undefined && event.getEntity().openInventory.computer !== null){
+    if (event.player.fake || (event.getEntity().openInventory && event.getEntity().openInventory.computer)){
       return;
     }
     
