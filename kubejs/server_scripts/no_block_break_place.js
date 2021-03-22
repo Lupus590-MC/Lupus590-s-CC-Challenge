@@ -46,7 +46,22 @@ Lupus590.Serialise = function(obj, indent){
   }  
 };
 
+Lupus590.isFakePlayer = function(event){
+  return event.player.fake || (event.player.openInventory && event.player.openInventory.computer);
+};
+
+Lupus590.isFakeEntity = function(event){
+  return event.getEntity().fake || (event.getEntity().openInventory && event.getEntity().openInventory.computer);
+};
+
 events.listen('block.break', function (event) {
+  console.info(Lupus590.Serialise(event.getEntity()));
+  console.info(Lupus590.Serialise(event.player));
+
+    if (true){
+      return;
+    }
+
     if (event.player.fake || (event.player.openInventory && event.player.openInventory.computer)){
       return;
     }
@@ -58,6 +73,9 @@ events.listen('block.break', function (event) {
   });
 
   events.listen('block.place', function (event) {
+    console.info(Lupus590.Serialise(event.getEntity()));
+    console.info(Lupus590.Serialise(event.player));
+
     if (event.player.fake || (event.getEntity().openInventory && event.getEntity().openInventory.computer)){
       return;
     }
