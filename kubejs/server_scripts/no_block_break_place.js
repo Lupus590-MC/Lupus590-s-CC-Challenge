@@ -71,24 +71,26 @@ Lupus590.isFakeEntity = function(event){
 };
 
 events.listen('block.break', function (event) {
-	console.info(Lupus590.Serialise(event.getEntity()));
-	console.info(Lupus590.Serialise(event.player));
+	//console.info(Lupus590.Serialise(event.getEntity() === event.player));
+    //console.info(Lupus590.Serialise(event.getEntity()));
+	console.info(Lupus590.Serialise(event.player.isPlayer()));
 
 	if (true){
-	return;
+		//return;
 	}
 
-	if (event.player.fake || (event.player.openInventory && event.player.openInventory.computer)){
-	return;
+	if (Lupus590.isFakeEntity() || Lupus590.isFakePlayer()){
+		return;
 	}
 
 	if (!event.block.id.match("computercraft:")){
-	event.player.tell("You just tried to break a banned block. Only computercraft blocks are allowed to be broken manually.");
-	event.cancel();
+		event.player.tell("You just tried to break a banned block. Only computercraft blocks are allowed to be broken manually.");
+		event.cancel();
 	}
 });
 
 events.listen('block.place', function (event) {
+	//console.info(Lupus590.Serialise(event.getEntity() === event.player));
     //console.info(Lupus590.Serialise(event.getEntity()));
     //console.info(Lupus590.Serialise(event.player));
 
