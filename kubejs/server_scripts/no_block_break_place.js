@@ -89,8 +89,8 @@ events.listen('block.break', function (event) {
 });
 
 events.listen('block.place', function (event) {
-    console.info(Lupus590.Serialise(event.getEntity()));
-    console.info(Lupus590.Serialise(event.player));
+    //console.info(Lupus590.Serialise(event.getEntity()));
+    //console.info(Lupus590.Serialise(event.player));
 
     if (event.getEntity().fake || (event.getEntity().openInventory && event.getEntity().openInventory.computer) || Lupus590.isFakeEntity() || Lupus590.isFakePlayer()){
       	return;
