@@ -1,7 +1,7 @@
 let Lupus590 = {};
 Lupus590.Serialise = function(obj, indent){
 	let maxIndent = 0;
-	
+
 	if (indent !== undefined && indent !== null){
 		indent = indent;
 	}else{
