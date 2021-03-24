@@ -47,10 +47,16 @@ Lupus590.Serialise = function(obj, indent){
 };
 
 Lupus590.isFakePlayer = function(event){
+	if(! (event && event.player)){
+		return false;
+	}
   	return event.player.fake || (event.player.openInventory && event.player.openInventory.computer);
 };
 
 Lupus590.isFakeEntity = function(event){
+	if(! (event && event.getEntity())){
+		return false;
+	}
   	return event.getEntity().fake || (event.getEntity().openInventory && event.getEntity().openInventory.computer);
 };
 
@@ -76,7 +82,7 @@ events.listen('block.place', function (event) {
     console.info(Lupus590.Serialise(event.getEntity()));
     console.info(Lupus590.Serialise(event.player));
 
-    if (event.player.fake || (event.getEntity().openInventory && event.getEntity().openInventory.computer)){
+    if (event.getEntity().fake || (event.getEntity().openInventory && event.getEntity().openInventory.computer) || Lupus590.isFakeEntity() || Lupus590.isFakePlayer()){
       	return;
     }
     
