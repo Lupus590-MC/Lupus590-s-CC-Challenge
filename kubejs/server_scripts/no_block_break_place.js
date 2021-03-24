@@ -1,18 +1,28 @@
 let Lupus590 = {};
 Lupus590.Serialise = function(obj, indent){
+	let maxIndent = 0;
+	
 	if (indent !== undefined && indent !== null){
 		indent = indent;
 	}else{
 		indent = 0;
 	}
   
-	if (indent > 0){
-		if (obj !== null && obj !== undefined && typeof(obj.toString)==='function'){
-		return "max indent "+obj.toString();
-		}
-		else{
-		return "max indent null";
-		}
+	if (indent > maxIndent){
+		if (typeof(obj) === 'string'){
+			return '"'+obj+'"';
+		}else if (typeof(obj) === 'boolean' || typeof(obj) === 'number'){
+			return obj;
+		}else if (typeof(obj) === 'function'){
+			return "function";
+		}else if (obj === null || obj === undefined){
+			return "null";
+		}else if (typeof(obj) === 'object' && obj !== null){
+			return "max indent object";
+		}else{    
+			console.info('unhandled case');
+			throw {message: 'unhandled case'};
+		}  
 	}  
 
 	if (typeof(obj) === 'string'){
