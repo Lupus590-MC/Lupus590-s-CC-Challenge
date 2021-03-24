@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-03-22T17:31:53.6142301Z",
+  "lastPlayed": "2021-03-24T14:27:58.5714043Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -69,6 +69,146 @@
   "preferenceShowAddOnInfo": true,
   "installDate": "2021-02-26T02:53:55.6380698Z",
   "installedAddons": [
+    {
+      "addonID": 238086,
+      "gameInstanceID": "e2c9e569-131a-4790-be2e-e29055c179e0",
+      "installedFile": {
+        "id": 3247934,
+        "displayName": "kubejs-1605.3.6-build.177-forge.jar",
+        "fileName": "kubejs-1605.3.6-build.177-forge.jar",
+        "fileDate": "2021-03-22T16:05:13.253Z",
+        "fileLength": 663800,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3247/934/kubejs-1605.3.6-build.177-forge.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 419699,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 416294,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 268655,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 238222,
+            "type": 2,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "kubejs-common.mixins.json",
+            "fingerprint": 803446103,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 3279136865,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 4007331960,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "kubejs_logo.png",
+            "fingerprint": 658118443,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "kubejs-common-refmap.json",
+            "fingerprint": 1879592702,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1290654324,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "kubejs.mixins.json",
+            "fingerprint": 3372627309,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "META-INF",
+            "fingerprint": 895267107,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "dev",
+            "fingerprint": 722223851,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "architectury_inject_KubeJS1165_common_132f1ae1a93246c493ecbd0c3792c090",
+            "fingerprint": 1209365153,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "kubejs-forge-refmap.json",
+            "fingerprint": 1493072104,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1973539104,
+        "gameVersion": [
+          "1.16.5",
+          "Forge",
+          "1.16.4"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "kubejs-1605.3.6-build.177-forge.jar"
+      },
+      "dateInstalled": "2021-02-26T03:05:26.694098Z",
+      "dateUpdated": "2021-03-24T14:27:48.720029Z",
+      "dateLastUpdateAttempted": "2021-03-24T14:27:48.720029Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
     {
       "addonID": 256717,
       "gameInstanceID": "e2c9e569-131a-4790-be2e-e29055c179e0",
@@ -125,146 +265,6 @@
       "dateUpdated": "2021-02-26T02:58:31.3127239Z",
       "dateLastUpdateAttempted": "2021-02-26T02:58:31.3127239Z",
       "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 238086,
-      "gameInstanceID": "e2c9e569-131a-4790-be2e-e29055c179e0",
-      "installedFile": {
-        "id": 3240199,
-        "displayName": "kubejs-1605.3.6-build.176-forge.jar",
-        "fileName": "kubejs-1605.3.6-build.176-forge.jar",
-        "fileDate": "2021-03-15T13:54:04.643Z",
-        "fileLength": 663576,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3240/199/kubejs-1605.3.6-build.176-forge.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 268655,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 416294,
-            "type": 3,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 419699,
-            "type": 3,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 238222,
-            "type": 2,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "kubejs-common.mixins.json",
-            "fingerprint": 803446103,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 3279136865,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 4007331960,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "kubejs_logo.png",
-            "fingerprint": 658118443,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "kubejs-common-refmap.json",
-            "fingerprint": 1879592702,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 1290654324,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "kubejs.mixins.json",
-            "fingerprint": 3372627309,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1579342961,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "dev",
-            "fingerprint": 2129061740,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "architectury_inject_KubeJS1165_common_132f1ae1a93246c493ecbd0c3792c090",
-            "fingerprint": 1209365153,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "kubejs-forge-refmap.json",
-            "fingerprint": 1493072104,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 2909464823,
-        "gameVersion": [
-          "1.16.5",
-          "Forge",
-          "1.16.4"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "kubejs-1605.3.6-build.176-forge.jar"
-      },
-      "dateInstalled": "2021-02-26T03:05:26.694098Z",
-      "dateUpdated": "2021-03-22T17:30:46.4681502Z",
-      "dateLastUpdateAttempted": "2021-03-22T17:30:46.4681502Z",
-      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -349,79 +349,7 @@
       "dateInstalled": "2021-02-26T03:12:18.9431831Z",
       "dateUpdated": "2021-03-22T17:30:49.6380926Z",
       "dateLastUpdateAttempted": "2021-03-22T17:30:49.6380926Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 238222,
-      "gameInstanceID": "e2c9e569-131a-4790-be2e-e29055c179e0",
-      "installedFile": {
-        "id": 3245079,
-        "displayName": "jei-1.16.5-7.6.1.75.jar",
-        "fileName": "jei-1.16.5-7.6.1.75.jar",
-        "fileDate": "2021-03-19T20:19:21.223Z",
-        "fileLength": 776321,
-        "releaseType": 2,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3245/79/jei-1.16.5-7.6.1.75.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1959328226,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mezz",
-            "fingerprint": 440866765,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 1645019714,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 2238490889,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 3614899296,
-        "gameVersion": [
-          "1.16.5",
-          "Forge"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "jei-1.16.5-7.6.1.75.jar"
-      },
-      "dateInstalled": "2021-02-26T02:54:18.6877746Z",
-      "dateUpdated": "2021-03-22T17:30:48.4492348Z",
-      "dateLastUpdateAttempted": "2021-03-22T17:30:48.4492348Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -506,17 +434,89 @@
       "installedTargets": null
     },
     {
+      "addonID": 238222,
+      "gameInstanceID": "e2c9e569-131a-4790-be2e-e29055c179e0",
+      "installedFile": {
+        "id": 3245079,
+        "displayName": "jei-1.16.5-7.6.1.75.jar",
+        "fileName": "jei-1.16.5-7.6.1.75.jar",
+        "fileDate": "2021-03-19T20:19:21.223Z",
+        "fileLength": 776321,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3245/79/jei-1.16.5-7.6.1.75.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1959328226,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mezz",
+            "fingerprint": 440866765,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1645019714,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2238490889,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3614899296,
+        "gameVersion": [
+          "1.16.5",
+          "Forge"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "jei-1.16.5-7.6.1.75.jar"
+      },
+      "dateInstalled": "2021-02-26T02:54:18.6877746Z",
+      "dateUpdated": "2021-03-22T17:30:48.4492348Z",
+      "dateLastUpdateAttempted": "2021-03-22T17:30:48.4492348Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 419699,
       "gameInstanceID": "e2c9e569-131a-4790-be2e-e29055c179e0",
       "installedFile": {
-        "id": 3245487,
-        "displayName": "[Forge 1.16.4/5] v1.9.136",
-        "fileName": "architectury-1.9.136-forge.jar",
-        "fileDate": "2021-03-20T07:47:51.397Z",
-        "fileLength": 304219,
+        "id": 3247096,
+        "displayName": "[Forge 1.16.4/5] v1.10.137",
+        "fileName": "architectury-1.10.137-forge.jar",
+        "fileDate": "2021-03-21T19:26:57.217Z",
+        "fileLength": 304493,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3245/487/architectury-1.9.136-forge.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3247/96/architectury-1.10.137-forge.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -554,19 +554,19 @@
           },
           {
             "foldername": "META-INF",
-            "fingerprint": 936142820,
+            "fingerprint": 1983699031,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "me",
-            "fingerprint": 1497881104,
+            "fingerprint": 1757247861,
             "type": 0,
             "invalidFingerprint": false
           },
           {
-            "foldername": "architectury_inject_architectury_common_a6295260f7424d16ac447d541b61d691",
-            "fingerprint": 4182764917,
+            "foldername": "architectury_inject_architectury_common_7bcae538d8544f91ac5317d5df0a9d81",
+            "fingerprint": 1478881829,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -577,7 +577,7 @@
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 2566545370,
+        "packageFingerprint": 748021861,
         "gameVersion": [
           "1.16.5",
           "Forge",
@@ -592,11 +592,11 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "architectury-1.9.136-forge.jar"
+        "FileNameOnDisk": "architectury-1.10.137-forge.jar"
       },
       "dateInstalled": "2021-02-26T03:05:25.3996978Z",
-      "dateUpdated": "2021-03-22T17:30:55.26349Z",
-      "dateLastUpdateAttempted": "2021-03-22T17:30:55.26349Z",
+      "dateUpdated": "2021-03-24T14:27:48.8997992Z",
+      "dateLastUpdateAttempted": "2021-03-24T14:27:48.8997992Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -744,7 +744,79 @@
       "dateInstalled": "2021-02-26T03:12:18.5600944Z",
       "dateUpdated": "2021-03-22T17:30:54.047204Z",
       "dateLastUpdateAttempted": "2021-03-22T17:30:54.047204Z",
-      "status": 4,
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 283644,
+      "gameInstanceID": "e2c9e569-131a-4790-be2e-e29055c179e0",
+      "installedFile": {
+        "id": 3172794,
+        "displayName": "Placebo-1.16.4-4.4.1.jar",
+        "fileName": "Placebo-1.16.4-4.4.1.jar",
+        "fileDate": "2021-01-18T18:19:49.707Z",
+        "fileLength": 102026,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3172/794/Placebo-1.16.4-4.4.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2293954231,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "shadows",
+            "fingerprint": 3715312856,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "coremods",
+            "fingerprint": 2536798794,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3099375411,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1684246403,
+        "gameVersion": [
+          "1.16.5",
+          "1.16.4"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2020-11-02T18:40:51.49Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "Placebo-1.16.4-4.4.1.jar"
+      },
+      "dateInstalled": "2021-02-26T02:58:43.6245378Z",
+      "dateUpdated": "2021-02-26T02:58:43.6285371Z",
+      "dateLastUpdateAttempted": "2021-02-26T02:58:43.6285371Z",
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -835,78 +907,6 @@
       "dateInstalled": "2021-02-26T02:54:11.1141691Z",
       "dateUpdated": "2021-03-22T17:30:52.9630836Z",
       "dateLastUpdateAttempted": "2021-03-22T17:30:52.9630836Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 283644,
-      "gameInstanceID": "e2c9e569-131a-4790-be2e-e29055c179e0",
-      "installedFile": {
-        "id": 3172794,
-        "displayName": "Placebo-1.16.4-4.4.1.jar",
-        "fileName": "Placebo-1.16.4-4.4.1.jar",
-        "fileDate": "2021-01-18T18:19:49.707Z",
-        "fileLength": 102026,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3172/794/Placebo-1.16.4-4.4.1.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2293954231,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "shadows",
-            "fingerprint": 3715312856,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "coremods",
-            "fingerprint": 2536798794,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 3099375411,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 1684246403,
-        "gameVersion": [
-          "1.16.5",
-          "1.16.4"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2020-11-02T18:40:51.49Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "Placebo-1.16.4-4.4.1.jar"
-      },
-      "dateInstalled": "2021-02-26T02:58:43.6245378Z",
-      "dateUpdated": "2021-02-26T02:58:43.6285371Z",
-      "dateLastUpdateAttempted": "2021-02-26T02:58:43.6285371Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -1071,7 +1071,7 @@
       "dateInstalled": "2021-02-26T02:58:43.9837171Z",
       "dateUpdated": "2021-03-22T17:30:51.0361443Z",
       "dateLastUpdateAttempted": "2021-03-22T17:30:51.0361443Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
