@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-03-24T14:27:58.5714043Z",
+  "lastPlayed": "2021-03-26T22:22:50.8323417Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -198,7 +198,7 @@
       "dateInstalled": "2021-02-26T03:05:26.694098Z",
       "dateUpdated": "2021-03-24T14:27:48.720029Z",
       "dateLastUpdateAttempted": "2021-03-24T14:27:48.720029Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -509,14 +509,14 @@
       "addonID": 419699,
       "gameInstanceID": "e2c9e569-131a-4790-be2e-e29055c179e0",
       "installedFile": {
-        "id": 3247096,
-        "displayName": "[Forge 1.16.4/5] v1.10.137",
-        "fileName": "architectury-1.10.137-forge.jar",
-        "fileDate": "2021-03-21T19:26:57.217Z",
-        "fileLength": 304493,
+        "id": 3248258,
+        "displayName": "[Forge 1.16.4/5] v1.10.138",
+        "fileName": "architectury-1.10.138-forge.jar",
+        "fileDate": "2021-03-22T21:42:43.18Z",
+        "fileLength": 304569,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3247/96/architectury-1.10.137-forge.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3248/258/architectury-1.10.138-forge.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -554,19 +554,19 @@
           },
           {
             "foldername": "META-INF",
-            "fingerprint": 1983699031,
+            "fingerprint": 2780306595,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "me",
-            "fingerprint": 1757247861,
+            "fingerprint": 727498126,
             "type": 0,
             "invalidFingerprint": false
           },
           {
-            "foldername": "architectury_inject_architectury_common_7bcae538d8544f91ac5317d5df0a9d81",
-            "fingerprint": 1478881829,
+            "foldername": "architectury_inject_architectury_common_d5c6a7da7b80441a8405eb4bfd98caa6",
+            "fingerprint": 3483101651,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -577,7 +577,7 @@
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 748021861,
+        "packageFingerprint": 1932546739,
         "gameVersion": [
           "1.16.5",
           "Forge",
@@ -592,11 +592,11 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "architectury-1.10.137-forge.jar"
+        "FileNameOnDisk": "architectury-1.10.138-forge.jar"
       },
       "dateInstalled": "2021-02-26T03:05:25.3996978Z",
-      "dateUpdated": "2021-03-24T14:27:48.8997992Z",
-      "dateLastUpdateAttempted": "2021-03-24T14:27:48.8997992Z",
+      "dateUpdated": "2021-03-26T00:42:38.815337Z",
+      "dateLastUpdateAttempted": "2021-03-26T00:42:38.815337Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
